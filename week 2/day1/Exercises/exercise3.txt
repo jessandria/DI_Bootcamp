@@ -1,0 +1,5 @@
+5 < 3 : FALSE
+3 == 3 : TRUE
+3 == "3" : FALSE
+"3" > 3 : string and integer cannot be compared directly
+"Hello" == "hello" : FALSE

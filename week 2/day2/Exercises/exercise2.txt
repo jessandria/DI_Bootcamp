@@ -1,0 +1,2 @@
+Given a tuple which value is integers, is it possible to add more integers to the tuple?
+-> it's not possible to add more elements to a tuple. A tuple is immutable

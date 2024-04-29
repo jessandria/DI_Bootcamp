@@ -22,7 +22,7 @@ cats = [cookie, tigress, boullette]
 
 oldest_cat = find_oldest_cat(cats)
 
-print(f"The oldest cat is : {oldest_cat.name}")
+print(f"The oldest cat is {oldest_cat.name}, and is {oldest_cat.age} years old")
 
 
 

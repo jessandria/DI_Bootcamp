@@ -1,16 +1,24 @@
-import matplotlib.pyplot as plt 
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-x = np.linspace(0, 10, 20)
-y1 = x ** 2
-y2 = x ** 1.5
 
-#Create a line plot of y1 against x.
-#Create a scatter plot of y2 against x.
+x = np.linspace(0, 20, 100)
 
-fig, ax= plt.subplots()
-ax.plot(x,y1)
-ax.scatter(x,y2)
+
+y = x ** 2
+
+
+plt.plot(x, y)
+
+
+plt.title('Plot of x vs x^2')
+plt.xlabel('x')
+plt.ylabel('x^2')
+
+plt.xlim(0, 20)
+plt.ylim(0, 400)  
+
+plt.savefig('x_vs_x_squared.png')
 
 plt.show()
-#fig.savefig("Basicplot.png")

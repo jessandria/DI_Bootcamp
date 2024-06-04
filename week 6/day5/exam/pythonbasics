@@ -1,0 +1,9 @@
+Data Types
+
+Which of the following is not a mutable data type in Python?
+a) List
+b) Dictionary
+c) Tuple 
+d) Set
+
+Tuple is the unmutable data type in Python
